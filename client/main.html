@@ -1,0 +1,23 @@
+<head>
+  <title>TransformingVisitor</title>
+</head>
+
+<body>
+  <h1>Welcome to Meteor!</h1>
+  {{> hello}}
+</body>
+
+<template name="hello">
+  {{#each range}}
+  <div class="btn-group">
+    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      Action <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu">
+      {{#each items}}
+      <li><a href="/{{this}}">{{this}}</a></li>
+      {{/each}}
+    </ul>
+  </div>
+  {{/each}}
+</template>
