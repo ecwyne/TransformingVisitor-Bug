@@ -6,6 +6,7 @@ With the help of [MDG](https://github.com/meteor/meteor/issues/6793#issuecomment
 # To Reproduce
 ```shell
   git clone https://github.com/ecwyne/TransformingVisitor-Bug
+  git checkout d61ae8e
   cd TransformingVisitor-Bug
   meteor run --production
 ```
