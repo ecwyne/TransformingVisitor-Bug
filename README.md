@@ -6,8 +6,8 @@ With the help of [MDG](https://github.com/meteor/meteor/issues/6793#issuecomment
 # To Reproduce
 ```shell
   git clone https://github.com/ecwyne/TransformingVisitor-Bug
-  git checkout d61ae8e
   cd TransformingVisitor-Bug
+  git checkout d61ae8e
   meteor run --production
 ```
 Go to localhost:3000 on Chrome 51, open developer console and refresh the page until error occurs and page does not load.
